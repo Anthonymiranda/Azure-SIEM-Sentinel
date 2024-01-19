@@ -5,15 +5,18 @@ Made a Honeypot on Azure cloud running a Windows 10 Virtual Machine with all por
 <h2>Description</h2>
 
 The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third-party API to collect geographic information about the attackers' location.
-<br>
+   - [Powershell Script](https://github.com/Anthonymiranda/Azure-SIEM-Sentinel/blob/main/Powershell%20Scrip)
+     
 The script is used in this demo where I set up Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to Look up the attackers' Geolocation information and plot it on an Azure Sentinel Map!
 <br>
-RDP event fail logs to iP Geographic information
 <br>
+This is the Query used to parse the log data and extract the location, usernames, passwords, and other fields from the log:
+ - [Log Query](https://github.com/Anthonymiranda/Azure-SIEM-Sentinel/blob/main/Query%20for%20Log%20Parsing)
+
 <h2>Languages Used</h2>
 
 PowerShell: Extract RDP failed logon logs from Windows Event Viewer
-Utilities Used
+Utilities 
 <h2>Utilities Used</h2>
 ipgeolocation.io: IP Address to Geolocation API
 <br>

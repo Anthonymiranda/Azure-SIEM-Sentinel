@@ -22,8 +22,7 @@ ipgeolocation.io: IP Address to Geolocation API
 <br>
 <br>
 <h2>World map of incoming attacks so far (built custom logs including geodata)</h2>
-<img width="1440" alt="Screenshot 2024-01-19 at 11 31 47" src="https://github.com/Anthonymiranda/Azure-SIEM-Sentinel/assets/25447589/ac1e4d2f-e60c-4865-994e-0fed6dfe1eb6">
-
+<img width="1440" alt="Screenshot 2024-01-23 at 9 44 10" src="https://github.com/Anthonymiranda/Azure-SIEM-Sentinel/assets/25447589/9bb34748-40dc-4d30-b686-965b8b9d2b7c">
 
 <h2> Steps Breakdown</h2>
 Some steps are simple, like creating a virtual machine so I have skipped with the assumption that it's pretty easy for anyone to logging into Azure and click "create virtual machine"
